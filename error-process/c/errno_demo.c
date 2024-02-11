@@ -22,4 +22,4 @@ int main() {
     return 0;
 }
 
-// gcc demo.c -o demo
+// gcc errno_demo.c -o errno_demo
