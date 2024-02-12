@@ -28,3 +28,11 @@
 # 异步编程的错误处理
 - 使用回调函数, 参考callback_demo.go
 - 使用promise设计模式。通过channel或者waitgroup等待异步执行结束后，通过判断返回执行不同的逻辑 参考promise_demo.go
+
+
+# 错误分类
+- fatal 重大错误
+- error 资源错误（网络请求或者内存不足等）
+- warning 引起关注
+- info 输出一些进度或者信息
+- debug 便于定位异常
